@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometry Genius</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  *{
+    font-family: 'Inter', sans-serif;
+  }
+</style>
+
+</head>
+<body>
+  <header>
+    <div class="navbar bg-base-100 w-11/12 mx-auto py-5 px-11 bg-slate-200 rounded-md mb-14 mt-8">
+      <div class="flex-1 flex-col items-start ">
+        <a class=" normal-case p-0 text-5xl font-semibold">Interactive</a>
+        <a class=" normal-case p-0 text-3xl ">Geometry Genius</a>
+      </div>
+      <div class="flex-none">
+        <button class="btn btn-square bg-slate-400 text-white px-10 p-3 h-fit w-auto text-xl">
+          Blog
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="w-11/12 mx-auto flex">
+    <div class="grid grid-cols-3 w-full gap-6">
+      <div class="card card-compact w-96 bg-base-100 border shadow-xl py-12 px-11">
+        <figure class="rounded-none"><img src="./images/triangle.png" alt="Shoes" /></figure>
+        <div class="space-y-5 m-0 p-0">
+          <h2 class="text mt-10 text-center text-2xl font-bold">triangle</h2>
+          <p class="text-center">Area (A) = 0.5 x b x h</p>
+          <div class="flex mx-auto justify-center items-center">
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"> <h1 class="text-base font-medium ml-2 mr-4">cm</h1>
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"><h1 class="text-base font-medium ml-2">cm</h1>
+          </div>
+          <div class="card-actions justify-end">
+            <button class="btn mt-10  w-full mx-auto text-white bg-cyan-600">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact w-96 bg-base-100 border shadow-xl py-12 px-11">
+        <figure class="rounded-none"><img src="./images/rectangle.png" alt="Shoes" /></figure>
+        <div class="space-y-5 m-0 p-0">
+          <h2 class="text mt-10 text-center text-2xl font-bold">Rectangle</h2>
+          <p class="text-center">Area (A) = 0.5 x b x h</p>
+          <div class="flex mx-auto justify-center items-center">
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"> <h1 class="text-base font-medium ml-2 mr-4">cm</h1>
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"><h1 class="text-base font-medium ml-2">cm</h1>
+          </div>
+          <div class="card-actions justify-end">
+            <button class="btn mt-10 w-full w-5/6 mx-auto text-white bg-cyan-600">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact w-96 bg-base-100 border shadow-xl py-12 px-11">
+        <figure class="rounded-none"><img src="./images/parallelogram.png" alt="Shoes" /></figure>
+        <div class="space-y-5 m-0 p-0">
+          <h2 class="text mt-10 text-center text-2xl font-bold">Parallelogram</h2>
+          <p class="text-center">Area (A) = 0.5 x b x h</p>
+          <div class="flex mx-auto justify-center items-center">
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"> <h1 class="text-base font-medium ml-2 mr-4">cm</h1>
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"><h1 class="text-base font-medium ml-2">cm</h1>
+          </div>
+          <div class="card-actions justify-end">
+            <button class="btn mt-10 w-full w-5/6 mx-auto text-white bg-cyan-600">Calculate</button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact w-96 bg-base-100 border shadow-xl py-12 px-11">
+        <figure class="rounded-none"><img src="./images/rhombus.png" alt="Shoes" /></figure>
+        <div class="space-y-5 m-0 p-0">
+          <h2 class="text mt-10 text-center text-2xl font-bold">Rhombus</h2>
+          <p class="text-center">Area (A) = 0.5 x b x h</p>
+          <div class="flex mx-auto justify-center items-center">
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"> <h1 class="text-base font-medium ml-2 mr-4">cm</h1>
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"><h1 class="text-base font-medium ml-2">cm</h1>
+          </div>
+          <div class="card-actions justify-end">
+            <button class="btn mt-10 w-full w-5/6 mx-auto text-white bg-cyan-600">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact w-96 bg-base-100 border shadow-xl py-12 px-11">
+        <figure class="rounded-none"><img src="./images/pentagon.png" alt="Shoes" /></figure>
+        <div class="space-y-5 m-0 p-0">
+          <h2 class="text mt-10 text-center text-2xl font-bold">Pentagon</h2>
+          <p class="text-center">Area (A) = 0.5 x b x h</p>
+          <div class="flex mx-auto justify-center items-center">
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"> <h1 class="text-base font-medium ml-2 mr-4">cm</h1>
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"><h1 class="text-base font-medium ml-2">cm</h1>
+          </div>
+          <div class="card-actions justify-end">
+            <button class="btn mt-10 w-full w-5/6 mx-auto text-white bg-cyan-600">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact w-96 bg-base-100 border shadow-xl py-12 px-11">
+        <figure class="rounded-none"><img src="./images/ellipse.png" alt="Shoes" /></figure>
+        <div class="space-y-5 m-0 p-0">
+          <h2 class="text mt-10 text-center text-2xl font-bold">Ellipse</h2>
+          <p class="text-center">Area (A) = 0.5 x b x h</p>
+          <div class="flex mx-auto justify-center items-center">
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"> <h1 class="text-base font-medium ml-2 mr-4">cm</h1>
+            <input type="number" class="bg-slate-200 w-24 py-2 px-3 text-base"><h1 class="text-base font-medium ml-2">cm</h1>
+          </div>
+          <div class="card-actions justify-end">
+            <button class="btn mt-10 w-full w-5/6 mx-auto text-white bg-cyan-600">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="w-1/4">
+      <h1 class="text-center border">area calculation</h1>
+    </div>
+  </main>
+  
+</body>
+</html>
