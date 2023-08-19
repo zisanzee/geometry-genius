@@ -15,6 +15,9 @@ div.innerHTML = `
   <button class="btn" onclick="resultArea.removeChild(this.parentNode)"> clear </button>
 `;
 div.children[0].style.fontWeight = 'bold';
+div.style.position = "sticky";
+div.style.position = "right-0";
+div.style.position = "top-0";
 resultArea.appendChild(div);
 }
 
